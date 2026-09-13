@@ -1,0 +1,7 @@
+Sep 13, 2026 02:54:44.413 [125768950889216] INFO - Plex Media Scanner v1.43.3.10828-00f62d37d - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 02:00
+Sep 13, 2026 02:54:44.413 [125768950889216] INFO - Linux version: 7.0.0-31-generic, language: en-US
+Sep 13, 2026 02:54:44.413 [125768950889216] INFO - Processor: 12-core AMD Ryzen 5 3600 6-Core Processor
+Sep 13, 2026 02:54:44.413 [125768950889216] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --match --type 1 --log-file-suffix  Matcher --item 1070 --content-type=application/json
+Sep 13, 2026 02:54:44.414 [125768951398144] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Sep 13, 2026 02:54:44.487 [125768951398144] DEBUG - Matcher: found 0 auxiliary files for Avatar Aang: The Last Airbender
+Sep 13, 2026 02:54:44.487 [125768951398144] DEBUG - Matcher: no sidecar subtitle files found for /media/movies/Avatar Aang - The Last Airbender (2026)/The Legend Of Aang The Last Airbender (2026) [2160p] [4K] [WEB] [5.1] [YTS.GG - YTS.BZ].mkv

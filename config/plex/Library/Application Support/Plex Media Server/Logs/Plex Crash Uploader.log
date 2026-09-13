@@ -1,0 +1,4 @@
+Sep 10, 2026 15:48:29.433 [140543403133752] INFO - Crash Uploader - Platform: Linux ServerUUID: 83941f65c7406d3beb41458ac8f0f939d9b111d4 UserId: lcorream@lcorream.com Version: 1.43.3.10828-00f62d37d
+Sep 10, 2026 15:48:29.433 [140543403133752] INFO - Pre-processed minidump directory: /config/Library/Application Support/Plex Media Server/Crash Reports/1.43.3.10828-00f62d37d
+Sep 10, 2026 15:48:29.433 [140543403133752] INFO - Post-processed minidump directory: /run/plex-temp
+Sep 10, 2026 15:48:29.511 [140543431055368] INFO - Crash Uploader - Processing Complete.

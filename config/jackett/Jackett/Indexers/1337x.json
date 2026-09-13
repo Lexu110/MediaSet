@@ -1,0 +1,79 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://1337x.to/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": "cf_clearance=QbyWgU.oc8WscfWDu_fOzTcQrZjrkChsXCjdjaZcxBY-1785664346-1.2.1.1-HRgbYp4blUSKnsZ5WLDV0.O1CLQ_wJGdnELtsWbd0M9rxWgXTkAyWv1VFF.WkWi6zhn7B9d9DtUYCsGU7mlQZa9k5.8H5l0NBmz.epCGFDwdU7J7XNbx0erbqedYc22wKGbjT80vCi6B8eTD_lndNXbL_mDMpsGL2xlxDgF.jB_.AvmwDkQ0.fP9khKfU9odHizZkdUTPNCYbVp0r2rGNjXVEHF_uLbKSi_vkKEyS2sBsx1dwu6t4.5XzFfMP5I5fhGjWtPZpDTtBZolkaQAjJXGZnfTkNvoEeIMq4WtEnE5NIzE3zo4TnkiKhiUBmWqeJ.R0z11j9aNuN03Qaiwq_2L3ub5t4jLBdfSMAkTJJ73.Z2Dkvv5L.0tW9ReQthBRO68nfvbRlA8TdkebdwTkyQR.s6z3yKLNuGEegnxyTKIycBCI1FJ2Mb6HqjM1fR2sKTGRzhe_Yuh6KCVky1guw; cf_chl_rc_ni=1"
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": null
+  },
+  {
+    "id": "filterbyuploader",
+    "type": "inputstring",
+    "name": "Filter by Uploader",
+    "value": null
+  },
+  {
+    "id": "downloadlink",
+    "type": "inputselect",
+    "name": "Download link",
+    "value": "http://itorrents.org/",
+    "options": {
+      "http://itorrents.org/": "iTorrents.org",
+      "magnet:": "magnet"
+    }
+  },
+  {
+    "id": "downloadlink(fallback)",
+    "type": "inputselect",
+    "name": "Download link (fallback)",
+    "value": "magnet:",
+    "options": {
+      "http://itorrents.org/": "iTorrents.org",
+      "magnet:": "magnet"
+    }
+  },
+  {
+    "id": "disablesorting-1337xpreventssortingsearchesduringhighserverload,whichbreakstheindexerwhenperformingakeywordsearch-disableifyougetzeroresults",
+    "type": "inputbool",
+    "name": "Disable sorting - 1337x prevents sorting searches during high server load, which breaks the indexer when performing a keyword search - disable if you get zero results",
+    "value": false
+  },
+  {
+    "id": "sortrequestedfromsite",
+    "type": "inputselect",
+    "name": "Sort requested from site",
+    "value": "time",
+    "options": {
+      "time": "created",
+      "seeders": "seeders",
+      "size": "size"
+    }
+  },
+  {
+    "id": "orderrequestedfromsite",
+    "type": "inputselect",
+    "name": "Order requested from site",
+    "value": "desc",
+    "options": {
+      "desc": "desc",
+      "asc": "asc"
+    }
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
+  }
+]

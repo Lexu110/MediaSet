@@ -1,0 +1,54 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://helltorrents.com/"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": "cf_clearance=kWEFwvq6U7LFBn.1WeIV2sKMpkKvcsUYrDnkJL8tSCs-1785670115-1.2.1.1-jx6uRxblm.VXlxYsgu2kBRy4SqS9SPDYStLVZfSnEHz.4nOieukvwlMmCqKuL1Dg.DjuI7rxGVVbZLISHUFH9PKiHsCvaPAvBZuDMBGnc6mWxHgS7j9BMucErMIJZcqZH4SHK9o_PUrEX4BSVkjxOb0xJsAiIiv1iiBWlWUEYaOxPOv651uPvrVUDSmjUi38P9gGyMzo80IZTAZKHTFoE3Xj5VcjQJIvx7ifsuL5EuGdssSWW2hzVqtpwXsQx3erpK63SxnBjW0LrRmZI.o_dBIy9CWotD0xmYT6HtWIIVz6P4Jd1dWonkmVDrE1dHLNXia3nQ.JQoe_4urz4NHWS1zZ5azkuB3qI1..bnp0XK2IfhSM4s.9aHHRabpT0x5HDL8PME8KRyGenrMEWQjwSxcXyUBRUAQDKd3cC6NQJAfuI4OwTGgGVj3qIOm7s1u7UgYr5VCgD.bwB684ArgXVFXyFnmmLQCuPiJAfy9gBV_nW17san1n4bD_PaIWVda00HiOONLun48T07mBU9rSA3xUxL0O9f7Ix0avsTXbkl8p0csIyZWqqes4c3BbkBYH1gsYzV517x8uC8AEIHXKaQ; uid=10397317; pass=cfb7f8b6ce7ead28434b1d2af9cb5172"
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": null
+  },
+  {
+    "id": "username",
+    "type": "inputstring",
+    "name": "Username",
+    "value": "lcorream"
+  },
+  {
+    "id": "password",
+    "type": "inputstring",
+    "name": "Password",
+    "value": "CfDJ8C0AgNOf2n5EjoOerLyzUxdI_3Q5fBT9tV2si7nUJG63ICmDh89-gGy5l5_xKUoC-UXXQQgYMIvGdopXwwMlXAysa13BGCygLqtnU7UBvr_AxRQZBs6fqt66uhK2aOctiQ"
+  },
+  {
+    "id": "replacemultibyanotherlanguageinreleasename",
+    "type": "inputbool",
+    "name": "Replace MULTi by another language in release name",
+    "value": false
+  },
+  {
+    "id": "replacemultibythislanguage",
+    "type": "inputselect",
+    "name": "Replace MULTi by this language",
+    "value": "POLISH",
+    "options": {
+      "POLISH": "POLISH",
+      "MULTi POLISH": "MULTi POLISH"
+    }
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
+  }
+]

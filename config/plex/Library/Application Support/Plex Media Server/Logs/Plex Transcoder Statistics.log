@@ -1,0 +1,319 @@
+<SessionReport version="2" startTime="0" startTimestamp="Sep 13, 2026 14:03:01.842" key="/library/metadata/1094" session="p1h3f000ahx76hhf3xhin1e7" transcode="pzef108x5wfgfoh9v2q9wq48">
+<User id="1" thumb="https://plex.tv/users/bf5b5881cf0193e4/avatar?c=1789218997" title="lcorream" />
+<Player address="192.168.50.150" device="Xbox" machineIdentifier="p1h3f000ahx76hhf3xhin1e7" model="Xbox Series S" platform="Xbox" platformVersion="10.0.26100.9426" playbackId="6bbfe792-91b9-440b-8149-534e094911f0" playbackSessionId="ad86eceb-7a95-49ad-9ed0-5eff88461dfe" product="Plex for Xbox" remotePublicAddress="83.29.212.5" title="XBOX" vendor="Microsoft" version="5.94.1" local="1" relayed="0" secure="1" userID="1" />
+<Variants>
+<Variant id="8e6e048f-ee22-4afa-b68f-8ee330968ec5" targetBitrate="9267" context="streaming" subtitleDecision="copy" protocol="http" container="srt" transcodeHwRequested="0" transcodeHwFullPipeline="0">
+<Media audioProfile="lc" id="2274" videoProfile="main 10" container="srt" duration="5322302" selected="1">
+<Part audioProfile="lc" deepAnalysisVersion="6" id="2274" requiredBandwidths="30145,15338,10240,8825,8202,7857,6644,6417" videoProfile="main 10" container="srt" duration="5322302" decision="transcode" selected="1">
+<Stream bitrate="0" codec="srt" default="1" displayTitle="English" extendedDisplayTitle="English (SRT)" format="srt" id="5485" language="English" languageCode="eng" languageTag="en" requiredBandwidths="1,1,1,1,1,1,1,1" selected="1" streamType="3" decision="copy" location="embedded" />
+</Part>
+</Media>
+</Variant>
+</Variants>
+<SegmentList>
+<Segment duration="1740" startOffset="1573294" endOffset="1575034">
+<File name="chunk-00000" type="av">
+<FileVariant size="46" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="199" endTime="201" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="2740" startOffset="1575035" endOffset="1577776">
+<File name="chunk-00001" type="av">
+<FileVariant size="44" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="201" endTime="202" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="2174" startOffset="1577777" endOffset="1579952">
+<File name="chunk-00002" type="av">
+<FileVariant size="61" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="202" endTime="203" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="2914" startOffset="1579953" endOffset="1582868">
+<File name="chunk-00003" type="av">
+<FileVariant size="78" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="203" endTime="206" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="2392" startOffset="1582869" endOffset="1585261">
+<File name="chunk-00004" type="av">
+<FileVariant size="63" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="206" endTime="208" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="2174" startOffset="1585262" endOffset="1587437">
+<File name="chunk-00005" type="av">
+<FileVariant size="63" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="208" endTime="210" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="1957" startOffset="1587438" endOffset="1589396">
+<File name="chunk-00006" type="av">
+<FileVariant size="52" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="210" endTime="211" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="1957" startOffset="1589397" endOffset="1591354">
+<File name="chunk-00007" type="av">
+<FileVariant size="67" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="211" endTime="213" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="957" startOffset="1592269" endOffset="1593226">
+<File name="chunk-00008" type="av">
+<FileVariant size="39" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="213" endTime="214" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="1869" startOffset="1593227" endOffset="1595097">
+<File name="chunk-00009" type="av">
+<FileVariant size="50" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="214" endTime="215" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="2348" startOffset="1595098" endOffset="1597447">
+<File name="chunk-00010" type="av">
+<FileVariant size="89" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="215" endTime="215" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="1435" startOffset="1597448" endOffset="1598884">
+<File name="chunk-00011" type="av">
+<FileVariant size="54" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="215" endTime="216" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="2827" startOffset="1598885" endOffset="1601713">
+<File name="chunk-00012" type="av">
+<FileVariant size="87" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="216" endTime="217" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="3176" startOffset="1601714" endOffset="1604890">
+<File name="chunk-00013" type="av">
+<FileVariant size="68" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="217" endTime="219" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="4960" startOffset="1604891" endOffset="1609851">
+<File name="chunk-00014" type="av">
+<FileVariant size="75" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="219" endTime="397" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="1173" startOffset="1619645" endOffset="1620819">
+<File name="chunk-00015" type="av">
+<FileVariant size="51" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="397" endTime="397" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="1739" startOffset="1620820" endOffset="1622559">
+<File name="chunk-00016" type="av">
+<FileVariant size="75" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="397" endTime="531" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="1608" startOffset="1623910" endOffset="1625519">
+<File name="chunk-00017" type="av">
+<FileVariant size="56" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="531" endTime="538" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="2000" startOffset="1627565" endOffset="1629566">
+<File name="chunk-00018" type="av">
+<FileVariant size="44" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="538" endTime="1145" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="4089" startOffset="1643364" endOffset="1647454">
+<File name="chunk-00019" type="av">
+<FileVariant size="61" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="1145" endTime="1341" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="1566" startOffset="1651589" endOffset="1653155">
+<File name="chunk-00020" type="av">
+<FileVariant size="39" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="1341" endTime="1507" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="2610" startOffset="1657639" endOffset="1660249">
+<File name="chunk-00021" type="av">
+<FileVariant size="71" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="1507" endTime="1514" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="1958" startOffset="1660250" endOffset="1662208">
+<File name="chunk-00022" type="av">
+<FileVariant size="59" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="1514" endTime="1532" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="2653" startOffset="1662209" endOffset="1664863">
+<File name="chunk-00023" type="av">
+<FileVariant size="62" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="1532" endTime="1691" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="3828" startOffset="1664864" endOffset="1668693">
+<File name="chunk-00024" type="av">
+<FileVariant size="78" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="1691" endTime="1820" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="2261" startOffset="1668694" endOffset="1670956">
+<File name="chunk-00025" type="av">
+<FileVariant size="56" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="1820" endTime="1938" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="2174" startOffset="1670957" endOffset="1673132">
+<File name="chunk-00026" type="av">
+<FileVariant size="61" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="1938" endTime="2426" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="1479" startOffset="1678225" endOffset="1679704">
+<File name="chunk-00027" type="av">
+<FileVariant size="44" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="2426" endTime="2536" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="2219" startOffset="1680923" endOffset="1683142">
+<File name="chunk-00028" type="av">
+<FileVariant size="64" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="2536" endTime="2546" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="2218" startOffset="1684710" endOffset="1686928">
+<File name="chunk-00029" type="av">
+<FileVariant size="52" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="2546" endTime="2755" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="3567" startOffset="1692587" endOffset="1696155">
+<File name="chunk-00030" type="av">
+<FileVariant size="77" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="2755" endTime="3111" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="2958" startOffset="1697723" endOffset="1700681">
+<File name="chunk-00031" type="av">
+<FileVariant size="44" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="3111" endTime="3181" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="826" startOffset="1702945" endOffset="1703772">
+<File name="chunk-00032" type="av">
+<FileVariant size="39" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="3181" endTime="3201" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="1826" startOffset="1705382" endOffset="1707209">
+<File name="chunk-00033" type="av">
+<FileVariant size="44" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="3201" endTime="3365" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="1609" startOffset="1708168" endOffset="1709777">
+<File name="chunk-00034" type="av">
+<FileVariant size="44" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="3365" endTime="4434" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="1347" startOffset="1721877" endOffset="1723225">
+<File name="chunk-00035" type="av">
+<FileVariant size="40" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="4434" endTime="4612" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+<Segment duration="1957" startOffset="1727187" endOffset="1729144">
+<File name="chunk-00036" type="av">
+<FileVariant size="45" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</File>
+<Timelines>
+<Transcode startTime="4612" endTime="4743" complete="1" fileType="av" variant="8e6e048f-ee22-4afa-b68f-8ee330968ec5" />
+</Timelines>
+</Segment>
+</SegmentList>
+<PlaybackReports>
+<Playback startTime="35" endTime="544" state="playing" progress="1579263" />
+<Playback startTime="544" endTime="798" state="buffering" progress="1579263" />
+<Playback startTime="798" endTime="1229" state="playing" progress="1579263" />
+<Playback startTime="1229" endTime="4997" state="playing" progress="1539263" />
+</PlaybackReports>
+<StateReports />
+<StateReports />
+</SessionReport>

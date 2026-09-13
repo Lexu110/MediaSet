@@ -1,0 +1,5 @@
+Sep 04, 2026 20:51:39.023 [134625457417016] INFO - Crash Uploader - Session Health - Status: exited StartTime: 1788540191 Duration: 7707 UserId: lcorream@lcorream.com Version: 1.43.3.10828-00f62d37d
+Sep 04, 2026 20:51:38.987 [134625485338632] DEBUG - [HCl#1] HTTP requesting POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Sep 04, 2026 20:51:38.993 [134625457179448] WARN - [HttpClient/HCl#1] HTTP error requesting POST https://o17675.ingest.sentry.io/api/1233455/envelope/?sentry_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx (7, Couldn't connect to server) (Failed to connect to o17675.ingest.sentry.io port 443 after 5 ms: Couldn't connect to server)
+Sep 04, 2026 20:51:38.993 [134625485338632] ERROR - Failed to upload session health
+Sep 04, 2026 20:51:38.993 [134625485338632] INFO - Crash Uploader - Processing Complete.

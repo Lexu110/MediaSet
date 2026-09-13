@@ -1,0 +1,632 @@
+Sep 12, 2026 02:03:32.636 [137334454147840] INFO - Plex Media Scanner v1.43.3.10828-00f62d37d - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 02:00
+Sep 12, 2026 02:03:32.636 [137334454147840] INFO - Linux version: 7.0.0-31-generic, language: en-US
+Sep 12, 2026 02:03:32.637 [137334454147840] INFO - Processor: 12-core AMD Ryzen 5 3600 6-Core Processor
+Sep 12, 2026 02:03:32.637 [137334454147840] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --generate --chapter-thumbs-only --item 1119 --log-file-suffix  Chapter Thumbnails --force
+Sep 12, 2026 02:03:32.637 [137334454656768] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Sep 12, 2026 02:03:32.710 [137334454656768] DEBUG - [MI] Opening input file: "/media/tv/Forged in Fire/Season 3/Forged.in.Fire.S03E12.The.Zweihander.iNTERNAL.720p.HDTV.x264-DHD[eztv].mkv"
+Sep 12, 2026 02:03:32.710 [137334454656768] DEBUG - [FFMPEG] - Opening '/media/tv/Forged in Fire/Season 3/Forged.in.Fire.S03E12.The.Zweihander.iNTERNAL.720p.HDTV.x264-DHD[eztv].mkv' for reading
+Sep 12, 2026 02:03:32.710 [137334454656768] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Sep 12, 2026 02:03:32.710 [137334454656768] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Sep 12, 2026 02:03:32.710 [137334454656768] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Sep 12, 2026 02:03:32.710 [137334454656768] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Sep 12, 2026 02:03:32.710 [137334454656768] DEBUG - [FFMPEG] - st:2 removing common factor 1000000 from timebase
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 6641 bytes read:33988 seeks:2 nb_streams:3
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - For transform of length 128, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] -     1: 
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] -     2: 
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] -     3: 
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - For transform of length 64, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 3 matches:
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] -     1: 
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - fft_sr_asm_float_fma3 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 448
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] -     2: 
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - fft_sr_asm_float_avx2 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 447
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] -     3: 
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - fft_sr_asm_float_avx - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 416
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - Transform tree:
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] -     
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - mdct_inv_float_avx2 - type: mdct_float, len: 128, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] -     
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] -     
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - fft_sr_asm_float_fma3 - type: fft_float, len: 64, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - For transform of length 256, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] -     1: 
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] -     2: 
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] -     3: 
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - For transform of length 128, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 3 matches:
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] -     1: 
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - fft_sr_asm_float_fma3 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 448
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] -     2: 
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - fft_sr_asm_float_avx2 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 447
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] -     3: 
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - fft_sr_asm_float_avx - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 416
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - Transform tree:
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] -     
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - mdct_inv_float_avx2 - type: mdct_float, len: 256, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] -     
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] -     
+Sep 12, 2026 02:03:32.711 [137334454656768] DEBUG - [FFMPEG] - fft_sr_asm_float_fma3 - type: fft_float, len: 128, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+Sep 12, 2026 02:03:32.712 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.712 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:32.712 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.712 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:32.712 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.712 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.712 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:32.712 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.712 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:32.712 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:32.713 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:32.720 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:32.720 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:32.724 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:32.733 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Sep 12, 2026 02:03:32.738 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:32.746 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:32.751 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Sep 12, 2026 02:03:32.755 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Sep 12, 2026 02:03:32.760 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:32.766 [137334454656768] DEBUG - [FFMPEG] - All info found
+Sep 12, 2026 02:03:32.767 [137334454656768] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 489567 bytes read:544201 seeks:2 frames:26
+Sep 12, 2026 02:03:32.767 [137334454656768] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/7/dc148d410e7f1e17b901cf87ca2bc526b69dd16.bundle/Contents/Chapters/chapter1.jpg (0.1%, 1280x720).
+Sep 12, 2026 02:03:32.768 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.768 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:32.768 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.770 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.770 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:32.770 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.770 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:32.770 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.770 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.770 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:32.770 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.770 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:32.770 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:32.771 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:32.778 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:32.779 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:32.782 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:32.826 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:32.844 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.845 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:32.845 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.845 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.845 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:32.845 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.845 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:32.845 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.845 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.845 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:32.845 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.845 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:32.845 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:32.846 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:32.852 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:32.853 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:32.857 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:32.901 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:32.919 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.919 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:32.919 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.919 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.919 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:32.919 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.920 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:32.920 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.920 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.920 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:32.920 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.920 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:32.920 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:32.921 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:32.927 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:32.928 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:32.932 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:32.975 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:32.994 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.994 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:32.994 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.994 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.994 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:32.994 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.995 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:32.995 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.995 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.995 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:32.995 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:32.995 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:32.995 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:32.996 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.002 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.003 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.006 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.050 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:33.069 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.069 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.069 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.069 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.069 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.069 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.069 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.070 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.070 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.070 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:33.070 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.070 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.070 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:33.071 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.077 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.078 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.081 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.125 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:33.144 [137334454656768] DEBUG - Created chapter thumbnail for metadata item 1119, media item 2341 for chapter number 1:0 at "/config/Library/Application Support/Plex Media Server/Media/localhost/7/dc148d410e7f1e17b901cf87ca2bc526b69dd16.bundle/Contents/Chapters/chapter1.jpg"
+Sep 12, 2026 02:03:33.144 [137334454656768] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/7/dc148d410e7f1e17b901cf87ca2bc526b69dd16.bundle/Contents/Chapters/chapter2.jpg (20.4%, 1280x720).
+Sep 12, 2026 02:03:33.144 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.144 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.144 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.145 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.145 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.145 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.145 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.145 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.145 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.145 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:33.145 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.145 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.145 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:33.146 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.151 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.152 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.157 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Sep 12, 2026 02:03:33.197 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:33.217 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.217 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.217 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.217 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.218 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.218 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.218 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.218 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.218 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.218 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:33.218 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.218 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.218 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:33.219 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.224 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.225 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.230 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Sep 12, 2026 02:03:33.270 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:33.290 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.290 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.290 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.290 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.291 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.291 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.291 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.291 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.291 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.291 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:33.291 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.291 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.291 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:33.292 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.297 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.298 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.303 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Sep 12, 2026 02:03:33.343 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:33.363 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.363 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.363 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.363 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.363 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.363 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.363 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.363 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.363 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.363 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:33.363 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.363 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.364 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:33.365 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.369 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.370 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.376 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Sep 12, 2026 02:03:33.416 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:33.436 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.436 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.436 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.436 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.436 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.436 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.436 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.436 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.436 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.436 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:33.436 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.436 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.436 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:33.437 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.442 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.443 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.448 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Sep 12, 2026 02:03:33.488 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:33.508 [137334454656768] DEBUG - Created chapter thumbnail for metadata item 1119, media item 2341 for chapter number 2:510761 at "/config/Library/Application Support/Plex Media Server/Media/localhost/7/dc148d410e7f1e17b901cf87ca2bc526b69dd16.bundle/Contents/Chapters/chapter2.jpg"
+Sep 12, 2026 02:03:33.508 [137334454656768] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/7/dc148d410e7f1e17b901cf87ca2bc526b69dd16.bundle/Contents/Chapters/chapter3.jpg (43.3%, 1280x720).
+Sep 12, 2026 02:03:33.508 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.508 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.508 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.509 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.509 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.509 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.509 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.509 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.509 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.509 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:33.509 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.509 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.509 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:33.510 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.514 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.515 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.518 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.559 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:33.578 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.578 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.578 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.578 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.578 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.578 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.578 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.578 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.578 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.578 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:33.578 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.578 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.579 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:33.580 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.583 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.584 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.588 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.628 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:33.647 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.647 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.647 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.647 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.647 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.647 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.647 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.648 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.648 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.648 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:33.648 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.648 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.648 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:33.649 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.652 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.653 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.657 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.698 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:33.717 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.717 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.717 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.717 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.717 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.717 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.717 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.717 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.717 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.717 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:33.717 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.717 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.717 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:33.719 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.722 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.723 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.726 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.767 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:33.786 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.786 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.786 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.786 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.786 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.786 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.786 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.787 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.787 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.787 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:33.787 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.787 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.787 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:33.788 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.791 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.792 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.796 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.837 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:33.855 [137334454656768] DEBUG - Created chapter thumbnail for metadata item 1119, media item 2341 for chapter number 3:1088380 at "/config/Library/Application Support/Plex Media Server/Media/localhost/7/dc148d410e7f1e17b901cf87ca2bc526b69dd16.bundle/Contents/Chapters/chapter3.jpg"
+Sep 12, 2026 02:03:33.855 [137334454656768] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/7/dc148d410e7f1e17b901cf87ca2bc526b69dd16.bundle/Contents/Chapters/chapter4.jpg (63.0%, 1280x720).
+Sep 12, 2026 02:03:33.856 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.856 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.856 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.856 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.856 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.856 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.856 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.856 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.856 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.856 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:33.856 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.856 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.857 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:33.858 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.862 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.863 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.869 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Sep 12, 2026 02:03:33.909 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:33.928 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.928 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.928 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.928 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.928 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.928 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.929 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.929 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.929 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.929 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:33.929 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:33.929 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:33.929 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:33.930 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.935 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:33.936 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:33.941 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Sep 12, 2026 02:03:33.981 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:34.001 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.001 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.001 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.001 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.001 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.001 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.001 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.001 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.001 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.001 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:34.001 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.001 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.002 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:34.003 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.007 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.008 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.014 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Sep 12, 2026 02:03:34.053 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:34.072 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.072 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.072 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.072 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.072 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.072 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.072 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.073 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.073 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.073 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:34.073 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.073 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.073 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:34.074 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.079 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.079 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.085 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Sep 12, 2026 02:03:34.123 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:34.142 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.142 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.142 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.142 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.142 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.142 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.142 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.142 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.142 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.142 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:34.142 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.142 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.142 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:34.143 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.148 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.149 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.154 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 0
+Sep 12, 2026 02:03:34.191 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:34.209 [137334454656768] DEBUG - Created chapter thumbnail for metadata item 1119, media item 2341 for chapter number 4:1586420 at "/config/Library/Application Support/Plex Media Server/Media/localhost/7/dc148d410e7f1e17b901cf87ca2bc526b69dd16.bundle/Contents/Chapters/chapter4.jpg"
+Sep 12, 2026 02:03:34.209 [137334454656768] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/7/dc148d410e7f1e17b901cf87ca2bc526b69dd16.bundle/Contents/Chapters/chapter5.jpg (75.7%, 1280x720).
+Sep 12, 2026 02:03:34.210 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.210 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.210 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.210 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.210 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.210 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.210 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.210 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.210 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.210 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:34.210 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.210 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.210 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:34.211 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.216 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.217 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.220 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.260 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:34.278 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.278 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.278 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.278 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.278 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.278 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.279 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.279 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.279 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.279 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:34.279 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.279 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.279 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:34.280 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.285 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.285 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.289 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.329 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:34.347 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.347 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.347 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.347 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.347 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.347 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.348 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.348 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.348 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.348 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:34.348 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.348 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.348 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:34.349 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.353 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.354 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.357 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.406 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:34.429 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.429 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.429 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.429 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.429 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.429 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.429 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.430 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.430 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.430 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:34.430 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.430 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.430 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:34.431 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.437 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.438 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.442 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.492 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:34.515 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.515 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.515 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.515 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.515 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.515 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.515 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.516 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.516 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.516 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:34.516 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.516 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.516 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:34.517 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.523 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.524 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.528 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.570 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:34.588 [137334454656768] DEBUG - Created chapter thumbnail for metadata item 1119, media item 2341 for chapter number 5:1904370 at "/config/Library/Application Support/Plex Media Server/Media/localhost/7/dc148d410e7f1e17b901cf87ca2bc526b69dd16.bundle/Contents/Chapters/chapter5.jpg"
+Sep 12, 2026 02:03:34.588 [137334454656768] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/7/dc148d410e7f1e17b901cf87ca2bc526b69dd16.bundle/Contents/Chapters/chapter6.jpg (90.2%, 1280x720).
+Sep 12, 2026 02:03:34.588 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.588 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.588 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.588 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.588 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.588 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.588 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.589 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.589 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.589 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:34.589 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.589 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.589 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:34.590 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.594 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.595 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.600 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.640 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:34.658 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.658 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.658 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.658 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.658 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.658 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.659 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.659 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.659 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.659 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:34.659 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.659 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.659 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:34.660 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.664 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.665 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.670 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.710 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:34.729 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.729 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.729 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.729 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.729 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.729 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.729 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.729 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.729 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.729 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:34.729 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.729 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.729 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:34.730 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.735 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.735 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.740 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.781 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:34.799 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.799 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.799 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.800 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.800 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.800 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.800 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.800 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.800 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.800 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:34.800 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.800 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.800 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:34.801 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.806 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.807 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.812 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.852 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:34.870 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.870 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.870 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.870 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.870 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.870 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.870 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.871 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.871 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.871 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 12, 2026 02:03:34.871 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 12, 2026 02:03:34.871 [137334454656768] DEBUG - [FFMPEG] - Decoding VUI
+Sep 12, 2026 02:03:34.871 [137334454656768] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 12, 2026 02:03:34.872 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.876 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.877 [137334454656768] DEBUG - [FFMPEG] - no picture 
+Sep 12, 2026 02:03:34.882 [137334454656768] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 12, 2026 02:03:34.922 [137334454656768] DEBUG - Loaded memory image of size 1280x720.
+Sep 12, 2026 02:03:34.940 [137334454656768] DEBUG - Created chapter thumbnail for metadata item 1119, media item 2341 for chapter number 6:2271360 at "/config/Library/Application Support/Plex Media Server/Media/localhost/7/dc148d410e7f1e17b901cf87ca2bc526b69dd16.bundle/Contents/Chapters/chapter6.jpg"
+Sep 12, 2026 02:03:34.940 [137334454656768] DEBUG - [MI] Closing input file: "/media/tv/Forged in Fire/Season 3/Forged.in.Fire.S03E12.The.Zweihander.iNTERNAL.720p.HDTV.x264-DHD[eztv].mkv"
+Sep 12, 2026 02:03:34.941 [137334454656768] DEBUG - Generated new chapter thumbnails for The Zweihander.

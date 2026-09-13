@@ -1,0 +1,330 @@
+Sep 09, 2026 02:04:34.227 [138801945615104] INFO - Plex Media Scanner v1.43.3.10828-00f62d37d - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 02:00
+Sep 09, 2026 02:04:34.227 [138801945615104] INFO - Linux version: 7.0.0-31-generic, language: en-US
+Sep 09, 2026 02:04:34.227 [138801945615104] INFO - Processor: 12-core AMD Ryzen 5 3600 6-Core Processor
+Sep 09, 2026 02:04:34.227 [138801945615104] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --generate --chapter-thumbs-only --item 1105 --log-file-suffix  Chapter Thumbnails --force
+Sep 09, 2026 02:04:34.213 [138801946124032] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
+Sep 09, 2026 02:04:34.286 [138801946124032] DEBUG - [MI] Opening input file: "/media/movies/Moana (2026)/Moana (2026) [720p] [WEBRip] [YTS.GG - YTS.BZ].mp4"
+Sep 09, 2026 02:04:34.286 [138801946124032] DEBUG - [FFMPEG] - Opening '/media/movies/Moana (2026)/Moana (2026) [720p] [WEBRip] [YTS.GG - YTS.BZ].mp4' for reading
+Sep 09, 2026 02:04:34.286 [138801946124032] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto,data'
+Sep 09, 2026 02:04:34.286 [138801946124032] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Sep 09, 2026 02:04:34.286 [138801946124032] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Sep 09, 2026 02:04:34.286 [138801946124032] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Sep 09, 2026 02:04:34.298 [138801946124032] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 1024, duration: 85271040
+Sep 09, 2026 02:04:34.303 [138801946124032] DEBUG - [FFMPEG] - Offset DTS by 1024 to make first pts zero.
+Sep 09, 2026 02:04:34.305 [138801946124032] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Sep 09, 2026 02:04:34.305 [138801946124032] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Sep 09, 2026 02:04:34.316 [138801946124032] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 1024, duration: 333090816
+Sep 09, 2026 02:04:34.316 [138801946124032] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+Sep 09, 2026 02:04:34.324 [138801946124032] ERROR - [FFMPEG] - Referenced QT chapter track not found
+Sep 09, 2026 02:04:34.324 [138801946124032] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 4689168 bytes read:4710938 seeks:0 nb_streams:2
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - Decoding VUI
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - For transform of length 64, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     2: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     3: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - For transform of length 32, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 2 matches:
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 512
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     2: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - fft32_asm_float_avx - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 480
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - Transform tree:
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_avx2 - type: mdct_float, len: 64, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - For transform of length 64, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     2: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     3: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - For transform of length 32, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 2 matches:
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 512
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     2: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - fft32_asm_float_avx - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 480
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - Transform tree:
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_avx2 - type: mdct_float, len: 64, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - For transform of length 120, inverse, mdct_float, flags: [aligned, out_of_place], found 6 matches:
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     2: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_pfa_15xM_inv_float_c - type: mdct_float, len: [30, ∞], factors[2]: [15, any], flags: [unaligned, out_of_place, inv_only], prio: 304
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     3: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_pfa_5xM_inv_float_c - type: mdct_float, len: [10, ∞], factors[2]: [5, any], flags: [unaligned, out_of_place, inv_only], prio: 144
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     4: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_pfa_3xM_inv_float_c - type: mdct_float, len: [6, ∞], factors[2]: [3, any], flags: [unaligned, out_of_place, inv_only], prio: 112
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     5: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     6: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - For transform of length 60, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 1 matches:
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: [60, ∞], factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 655
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - For transform of length 4, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 1 matches:
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - fft4_fwd_asm_float_sse2 - type: fft_float, len: 4, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 352
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - Transform tree:
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_avx2 - type: mdct_float, len: 120, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: 60, factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - fft4_fwd_asm_float_sse2 - type: fft_float, len: 4, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - For transform of length 128, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     2: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     3: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - For transform of length 64, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 3 matches:
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - fft_sr_asm_float_fma3 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 448
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     2: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - fft_sr_asm_float_avx2 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 447
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     3: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - fft_sr_asm_float_avx - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 416
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - Transform tree:
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_avx2 - type: mdct_float, len: 128, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - fft_sr_asm_float_fma3 - type: fft_float, len: 64, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - For transform of length 480, inverse, mdct_float, flags: [aligned, out_of_place], found 6 matches:
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     2: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_pfa_15xM_inv_float_c - type: mdct_float, len: [30, ∞], factors[2]: [15, any], flags: [unaligned, out_of_place, inv_only], prio: 304
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     3: 
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] - mdct_pfa_5xM_inv_float_c - type: mdct_float, len: [10, ∞], factors[2]: [5, any], flags: [unaligned, out_of_place, inv_only], prio: 144
+Sep 09, 2026 02:04:34.325 [138801946124032] DEBUG - [FFMPEG] -     4: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_pfa_3xM_inv_float_c - type: mdct_float, len: [6, ∞], factors[2]: [3, any], flags: [unaligned, out_of_place, inv_only], prio: 112
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     5: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     6: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - For transform of length 240, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 1 matches:
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: [60, ∞], factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 655
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - For transform of length 16, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 2 matches:
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft16_asm_float_fma3 - type: fft_float, len: 16, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 512
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     2: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft16_asm_float_avx - type: fft_float, len: 16, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 480
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - Transform tree:
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_avx2 - type: mdct_float, len: 480, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: 240, factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft16_asm_float_fma3 - type: fft_float, len: 16, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - For transform of length 512, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     2: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     3: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - For transform of length 256, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 3 matches:
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft_sr_asm_float_fma3 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 448
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     2: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft_sr_asm_float_avx2 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 447
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     3: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft_sr_asm_float_avx - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 416
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - Transform tree:
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_avx2 - type: mdct_float, len: 512, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft_sr_asm_float_fma3 - type: fft_float, len: 256, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - For transform of length 960, inverse, mdct_float, flags: [aligned, out_of_place], found 6 matches:
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     2: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_pfa_15xM_inv_float_c - type: mdct_float, len: [30, ∞], factors[2]: [15, any], flags: [unaligned, out_of_place, inv_only], prio: 304
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     3: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_pfa_5xM_inv_float_c - type: mdct_float, len: [10, ∞], factors[2]: [5, any], flags: [unaligned, out_of_place, inv_only], prio: 144
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     4: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_pfa_3xM_inv_float_c - type: mdct_float, len: [6, ∞], factors[2]: [3, any], flags: [unaligned, out_of_place, inv_only], prio: 112
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     5: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     6: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - For transform of length 480, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 1 matches:
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: [60, ∞], factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 655
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - For transform of length 32, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 2 matches:
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 512
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     2: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft32_asm_float_avx - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 480
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - Transform tree:
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_avx2 - type: mdct_float, len: 960, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft_pfa_15xM_asm_float_avx2 - type: fft_float, len: 480, factors[2]: [15, 2], flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft32_asm_float_fma3 - type: fft_float, len: 32, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - For transform of length 1024, inverse, mdct_float, flags: [aligned, out_of_place], found 3 matches:
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_avx2 - type: mdct_float, len: [16, ∞], factors[2]: [2, any], flags: [aligned, out_of_place, inv_only], prio: 511
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     2: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: 96
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     3: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_naive_inv_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, inv_only], prio: -130976
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - For transform of length 512, inverse, fft_float, flags: [aligned, inplace, preshuf, asm_call], found 3 matches:
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft_sr_asm_float_fma3 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 448
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     2: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft_sr_asm_float_avx2 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 447
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     3: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft_sr_asm_float_avx - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call], prio: 416
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - Transform tree:
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_inv_float_avx2 - type: mdct_float, len: 1024, factors[2]: [2, any], flags: [aligned, out_of_place, inv_only]
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft_sr_asm_float_fma3 - type: fft_float, len: 512, factor: 2, flags: [aligned, inplace, out_of_place, preshuf, asm_call]
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - For transform of length 1024, forward, mdct_float, flags: [aligned, out_of_place], found 2 matches:
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_fwd_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, fwd_only], prio: 96
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     2: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_naive_fwd_float_c - type: mdct_float, len: [2, ∞], factors[2]: [2, any], flags: [unaligned, out_of_place, fwd_only], prio: -130976
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - For transform of length 512, forward, fft_float, flags: [aligned, inplace, preshuf], found 5 matches:
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     1: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft_sr_ns_float_fma3 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf], prio: 448
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     2: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft_sr_ns_float_avx2 - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf], prio: 447
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     3: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft_sr_ns_float_avx - type: fft_float, len: [64, 131072], factor: 2, flags: [aligned, inplace, out_of_place, preshuf], prio: 416
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     4: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft_pfa_ns_float_c - type: fft_float, len: [6, ∞], factors[2]: [7, 5, 3, 2, any], flags: [unaligned, inplace, out_of_place, preshuf], prio: 112
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     5: 
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft512_ns_float_c - type: fft_float, len: 512, factor: 2, flags: [unaligned, inplace, out_of_place, preshuf], prio: 96
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - Transform tree:
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - mdct_fwd_float_c - type: mdct_float, len: 1024, factors[2]: [2, any], flags: [unaligned, out_of_place, fwd_only]
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] -     
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - fft_sr_ns_float_fma3 - type: fft_float, len: 512, factor: 2, flags: [aligned, inplace, out_of_place, preshuf]
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - Decoding VUI
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.326 [138801946124032] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 09, 2026 02:04:34.327 [138801946124032] DEBUG - [FFMPEG] - no picture 
+Sep 09, 2026 02:04:34.327 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 09, 2026 02:04:34.328 [138801946124032] DEBUG - [FFMPEG] - no picture 
+Sep 09, 2026 02:04:34.328 [138801946124032] DEBUG - [FFMPEG] - demuxer injecting skip 1024 / discard 0
+Sep 09, 2026 02:04:34.328 [138801946124032] DEBUG - [FFMPEG] - skip 1024 / discard 0 samples due to side data
+Sep 09, 2026 02:04:34.328 [138801946124032] DEBUG - [FFMPEG] - All info found
+Sep 09, 2026 02:04:34.329 [138801946124032] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 4689636 bytes read:4710938 seeks:0 frames:3
+Sep 09, 2026 02:04:34.329 [138801946124032] DEBUG - Creating /config/Library/Application Support/Plex Media Server/Media/localhost/7/dbd37eceb7e5bdf254859ecbe948c61eeec396c.bundle/Contents/Chapters/chapter1.jpg (0.0%, 1280x720).
+Sep 09, 2026 02:04:34.330 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.330 [138801946124032] DEBUG - [FFMPEG] - Decoding VUI
+Sep 09, 2026 02:04:34.330 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.330 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.330 [138801946124032] DEBUG - [FFMPEG] - Decoding VUI
+Sep 09, 2026 02:04:34.330 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.330 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 09, 2026 02:04:34.330 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.330 [138801946124032] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 09, 2026 02:04:34.331 [138801946124032] DEBUG - [FFMPEG] - no picture 
+Sep 09, 2026 02:04:34.331 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 09, 2026 02:04:34.332 [138801946124032] DEBUG - [FFMPEG] - no picture 
+Sep 09, 2026 02:04:34.332 [138801946124032] DEBUG - [FFMPEG] - demuxer injecting skip 1024 / discard 0
+Sep 09, 2026 02:04:34.332 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 09, 2026 02:04:34.334 [138801946124032] DEBUG - [FFMPEG] - Forcing full internal H chroma due to odd output size
+Sep 09, 2026 02:04:34.367 [138801946124032] DEBUG - Loaded memory image of size 1281x534.
+Sep 09, 2026 02:04:34.383 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.383 [138801946124032] DEBUG - [FFMPEG] - Decoding VUI
+Sep 09, 2026 02:04:34.383 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.383 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.383 [138801946124032] DEBUG - [FFMPEG] - Decoding VUI
+Sep 09, 2026 02:04:34.383 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.383 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 09, 2026 02:04:34.383 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.383 [138801946124032] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 09, 2026 02:04:34.384 [138801946124032] DEBUG - [FFMPEG] - no picture 
+Sep 09, 2026 02:04:34.385 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 09, 2026 02:04:34.385 [138801946124032] DEBUG - [FFMPEG] - no picture 
+Sep 09, 2026 02:04:34.386 [138801946124032] DEBUG - [FFMPEG] - demuxer injecting skip 1024 / discard 0
+Sep 09, 2026 02:04:34.386 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 09, 2026 02:04:34.387 [138801946124032] DEBUG - [FFMPEG] - Forcing full internal H chroma due to odd output size
+Sep 09, 2026 02:04:34.420 [138801946124032] DEBUG - Loaded memory image of size 1281x534.
+Sep 09, 2026 02:04:34.436 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.436 [138801946124032] DEBUG - [FFMPEG] - Decoding VUI
+Sep 09, 2026 02:04:34.436 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.436 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.436 [138801946124032] DEBUG - [FFMPEG] - Decoding VUI
+Sep 09, 2026 02:04:34.436 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.436 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 09, 2026 02:04:34.436 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.436 [138801946124032] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 09, 2026 02:04:34.437 [138801946124032] DEBUG - [FFMPEG] - no picture 
+Sep 09, 2026 02:04:34.438 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 09, 2026 02:04:34.438 [138801946124032] DEBUG - [FFMPEG] - no picture 
+Sep 09, 2026 02:04:34.438 [138801946124032] DEBUG - [FFMPEG] - demuxer injecting skip 1024 / discard 0
+Sep 09, 2026 02:04:34.438 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 09, 2026 02:04:34.440 [138801946124032] DEBUG - [FFMPEG] - Forcing full internal H chroma due to odd output size
+Sep 09, 2026 02:04:34.473 [138801946124032] DEBUG - Loaded memory image of size 1281x534.
+Sep 09, 2026 02:04:34.489 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.489 [138801946124032] DEBUG - [FFMPEG] - Decoding VUI
+Sep 09, 2026 02:04:34.489 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.489 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.489 [138801946124032] DEBUG - [FFMPEG] - Decoding VUI
+Sep 09, 2026 02:04:34.489 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.489 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 09, 2026 02:04:34.489 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.489 [138801946124032] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 09, 2026 02:04:34.490 [138801946124032] DEBUG - [FFMPEG] - no picture 
+Sep 09, 2026 02:04:34.491 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 09, 2026 02:04:34.491 [138801946124032] DEBUG - [FFMPEG] - no picture 
+Sep 09, 2026 02:04:34.492 [138801946124032] DEBUG - [FFMPEG] - demuxer injecting skip 1024 / discard 0
+Sep 09, 2026 02:04:34.492 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 09, 2026 02:04:34.493 [138801946124032] DEBUG - [FFMPEG] - Forcing full internal H chroma due to odd output size
+Sep 09, 2026 02:04:34.526 [138801946124032] DEBUG - Loaded memory image of size 1281x534.
+Sep 09, 2026 02:04:34.542 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.542 [138801946124032] DEBUG - [FFMPEG] - Decoding VUI
+Sep 09, 2026 02:04:34.542 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.542 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 7(SPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.542 [138801946124032] DEBUG - [FFMPEG] - Decoding VUI
+Sep 09, 2026 02:04:34.542 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 8(PPS), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.543 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 6(SEI), nal_ref_idc: 0
+Sep 09, 2026 02:04:34.543 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 5(IDR), nal_ref_idc: 3
+Sep 09, 2026 02:04:34.543 [138801946124032] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Sep 09, 2026 02:04:34.543 [138801946124032] DEBUG - [FFMPEG] - no picture 
+Sep 09, 2026 02:04:34.544 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 09, 2026 02:04:34.545 [138801946124032] DEBUG - [FFMPEG] - no picture 
+Sep 09, 2026 02:04:34.545 [138801946124032] DEBUG - [FFMPEG] - demuxer injecting skip 1024 / discard 0
+Sep 09, 2026 02:04:34.545 [138801946124032] DEBUG - [FFMPEG] - nal_unit_type: 1(Coded slice of a non-IDR picture), nal_ref_idc: 2
+Sep 09, 2026 02:04:34.547 [138801946124032] DEBUG - [FFMPEG] - Forcing full internal H chroma due to odd output size
+Sep 09, 2026 02:04:34.579 [138801946124032] DEBUG - Loaded memory image of size 1281x534.
+Sep 09, 2026 02:04:34.594 [138801946124032] DEBUG - Skipped thumbnail for metadata item 1105, media item 2301 for chapter number 1:0
+Sep 09, 2026 02:04:34.595 [138801946124032] WARN - Could not find the placement within media 2301:/media/movies/Moana (2026)/Moana (2026) [720p] [WEBRip] [YTS.GG - YTS.BZ].mp4 for chapter number 2
+Sep 09, 2026 02:04:34.595 [138801946124032] DEBUG - Skipped thumbnail for metadata item 1105, media item 2301 for chapter number 2:49000000
+Sep 09, 2026 02:04:34.595 [138801946124032] DEBUG - [MI] Closing input file: "/media/movies/Moana (2026)/Moana (2026) [720p] [WEBRip] [YTS.GG - YTS.BZ].mp4"
+Sep 09, 2026 02:04:34.596 [138801946124032] DEBUG - Generated new chapter thumbnails for Moana.

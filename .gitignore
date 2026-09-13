@@ -1,0 +1,15 @@
+videos/
+media/
+static/
+downloads/
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.flv
+logs/
+*.log
+Plex/
+plex-config/
+tmp/
+*.tmp
