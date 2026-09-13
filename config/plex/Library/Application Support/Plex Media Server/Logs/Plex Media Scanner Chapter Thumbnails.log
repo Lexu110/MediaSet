@@ -1,9 +1,0 @@
-Sep 13, 2026 02:03:32.933 [140542394145536] INFO - Plex Media Scanner v1.43.3.10828-00f62d37d - Docker Docker Container (LinuxServer.io) x86_64 - build: linux-x86_64 - GMT 02:00
-Sep 13, 2026 02:03:32.933 [140542394145536] INFO - Linux version: 7.0.0-31-generic, language: en-US
-Sep 13, 2026 02:03:32.933 [140542394145536] INFO - Processor: 12-core AMD Ryzen 5 3600 6-Core Processor
-Sep 13, 2026 02:03:32.933 [140542394145536] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --generate --chapter-thumbs-only --item 1105 --log-file-suffix  Chapter Thumbnails
-Sep 13, 2026 02:03:33.165 [140542394654464] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.39.4, threadsafe=1
-Sep 13, 2026 02:03:33.247 [140542394654464] DEBUG - Created chapter thumbnail for metadata item 1105, media item 2301 for chapter number 1:0 at "/config/Library/Application Support/Plex Media Server/Media/localhost/7/dbd37eceb7e5bdf254859ecbe948c61eeec396c.bundle/Contents/Chapters/chapter1.jpg"
-Sep 13, 2026 02:03:33.247 [140542394654464] WARN - Could not find the placement within media 2301:/media/movies/Moana (2026)/Moana (2026) [720p] [WEBRip] [YTS.GG - YTS.BZ].mp4 for chapter number 2
-Sep 13, 2026 02:03:33.247 [140542394654464] DEBUG - Skipped thumbnail for metadata item 1105, media item 2301 for chapter number 2:49000000
-Sep 13, 2026 02:03:33.247 [140542394654464] DEBUG - Generated new chapter thumbnails for Moana.
